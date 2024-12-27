@@ -14,12 +14,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
-
-img {
-    width: 200px;
-    height: 300px;
-    position: absolute;
+button{
+    padding: 10px 20px;
     border: 2px solid black;
-    transition: all linear;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
 }
